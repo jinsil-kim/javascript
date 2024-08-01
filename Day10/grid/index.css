@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  /* fraction(fr): 파편 */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
